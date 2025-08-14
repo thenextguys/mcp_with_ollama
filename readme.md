@@ -83,8 +83,23 @@ Edit `config.json` to define your MCP servers and tools. Example:
 To run the `llama3.2:latest` model with MCP Host and your tools config:
 
 ```sh
-mcphost --config ./config.json
+mcphost -m ollama:llama3.2:latest --config 
 ```
+
+---
+
+## Example Output
+
+Below is a screenshot of MCP Host running with Ollama and the configured tools:
+
+![Running Example](resources/running_example.png)
+
+---
+
+## Credits
+
+This setup and tutorial closely follows the excellent guide from [Mehul Gupta's blog post](https://medium.com/data-science-in-your-pocket/model-context-protocol-mcp-using-ollama-e719b2d9fd7a).  
+**Full credit to the original author for the instructions and inspiration.**
 
 ---
 
