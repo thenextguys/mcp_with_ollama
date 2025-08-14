@@ -1,0 +1,15 @@
+# Go build artifacts
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# SQLite DBs
+dbs/*.db
+
+# VSCode settings
+.vscode/
+
+# Mac system files
+.DS_Store

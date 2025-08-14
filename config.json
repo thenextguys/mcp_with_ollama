@@ -1,0 +1,27 @@
+{
+	"globalShortcut": "cmd+Space",
+	"mcpServers": {
+		"sqlite": {
+			"command": "uvx",
+			"args": [
+				"mcp-server-sqlite",
+				"--db-path",
+				"/Users/fnc11/playground/mcp_with_ollama/dbs/Car_Database.db"
+			]
+		},
+		"ddg-search": {
+			"command": "uvx",
+			"args": [
+				"duckduckgo-mcp-server"
+			]
+		},
+		"filesystem": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"@modelcontextprotocol/server-filesystem",
+				"/Users/fnc11/playground/mcp_with_ollama/"
+			]
+		}
+	}
+}

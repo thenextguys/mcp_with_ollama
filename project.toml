@@ -1,0 +1,11 @@
+[project]
+name = "mcp_with_ollama"
+description = "MCP Host integration with Ollama models and additional tools"
+version = "0.1.0"
+authors = ["fnc11"]
+license = "MIT"
+
+[dependencies]
+go = ">=1.17"
+ollama = "latest"
+mcphost = "latest"
